@@ -1,17 +1,17 @@
 /*
- Two steppers' going around
+ Two steppers' going around in loop
 */
  
 // Include the AccelStepper Library
 #include <AccelStepper.h>
  
-// Define Constants
+
  
-// Define step constants
+// Define step
 #define FULLSTEP 4
 #define HALFSTEP 8
  
-// Define Motor Pins (2 Motors used)
+// Define Motor Pins - two motors
  
 #define motorPin1  8     // Blue   - 28BYJ48 pin 1
 #define motorPin2  9     // Pink   - 28BYJ48 pin 2
